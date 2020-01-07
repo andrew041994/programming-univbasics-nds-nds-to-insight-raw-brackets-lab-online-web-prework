@@ -7,9 +7,8 @@ def directors_totals(nds)
   #
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
-  results = {
-}
-director_counter=0
+  results = {}
+  director_counter=0
 while director_counter<nds.size
     movie_counter=0
     total=0
@@ -32,7 +31,5 @@ end
   #
   #
   # Be sure to return the result at the end!
-
-  nil
   results
 end
