@@ -18,7 +18,7 @@ def directors_totals(nds)
       end
       results[nds[director_counter][:name]]= total
       director_counter+=1
-      
+
   end
 
   #
