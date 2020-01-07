@@ -11,7 +11,6 @@ def directors_totals(nds)
 }
 director_counter=0
 while director_counter<nds.size
-  nds[director_counter][:name]
     movie_counter=0
     total=0
   while movie_counter<nds[movie_counter][:movies].size
