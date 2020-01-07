@@ -17,7 +17,7 @@ def directors_totals(nds)
         movie_counter+=1
       end
       director_counter+=1
-      # results[nds[director_counter][:name]]= total
+      results[nds[0][:name]]= total
   end
 
   #
