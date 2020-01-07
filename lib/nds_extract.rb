@@ -14,7 +14,7 @@ director_counter=0
 while director_counter<nds.size
   nds[director_counter][:name]
     movie_counter=0
-  while movie_counter<nds[0][:movies].size
+  while movie_counter<nds[movie_counter][:movies].size
     total+=nds[0][:movies][movie_counter][:worldwide_gross]
     results[nds[director_counter][:name]]=total
     movie_counter+=1
