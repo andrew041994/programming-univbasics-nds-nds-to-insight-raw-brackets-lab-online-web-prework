@@ -19,7 +19,7 @@ while director_counter<nds.size
     movie_counter+=1
   end
 director_counter+=1
-results[nds[director_counter][:name]]=total
+results[nds[director_counter][:name]]= total
 end
 
   #
