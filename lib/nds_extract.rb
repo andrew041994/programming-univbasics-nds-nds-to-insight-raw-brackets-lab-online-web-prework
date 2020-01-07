@@ -22,7 +22,6 @@ while director_counter<nds.size
 director_counter+=1
 end
 directors_totals
-  pp nds
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
